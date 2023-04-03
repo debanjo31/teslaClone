@@ -1,9 +1,11 @@
-import tesla from './assets/tesla.svg'
+import NavBar from "./component/NavBar"
+
 
 export default function App() {
   return (
     <div>
-      <img src={tesla} alt="" />
+      <NavBar />
+      
     </div>
   )
 }
