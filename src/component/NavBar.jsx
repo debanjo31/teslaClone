@@ -4,7 +4,7 @@ import tesla from '../assets/tesla.svg'
 const NavBar = () => {
   return (
     <div className=' pt-8  '>
-      <div className="w-5/6 mx-auto flex justify-between font-bold">
+      <div className="w-5/6 mx-auto flex justify-between">
           <div><img src={tesla} alt="tesla" className='h-4'/></div>
           <div className='hidden lg:flex gap-4'>
               <p>Model S</p>

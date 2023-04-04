@@ -8,7 +8,7 @@ const ModelX = () => {
             <img src={model3} className="h-full w-full object-cover" alt="" />
         </div>
         <div className='absolute top-0 left-0 w-full flex flex-col items-center justify-around h-screen text-center'>
-            <h1 className=' text-center text-2xl font-bold font-serif'>Model 3</h1>
+            <h1 className=' text-center text-5xl  '>Model 3</h1>
             <h1 className=' text-center'>Model 3</h1>
         </div>
     </div>
