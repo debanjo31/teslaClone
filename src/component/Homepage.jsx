@@ -4,7 +4,7 @@ import NavBar from './NavBar'
 
 const Homepage = () => {
   return (
-    <div>
+    <div className=''>
         <div className='relative'>
             <ModelX />
             <ModelX />
