@@ -14,10 +14,6 @@ export default {
         lg: "1200px",
         xl: "1700px",
       },
-      fontFamily: {
-        'sans': ['Gotham', 'sans-serif'],
-        'serif' : ['Gotham-medium', 'sans-serif'],
-      },
     },
   },
   plugins: [],
