@@ -7,12 +7,7 @@ import model3 from '../assets/model3.jpg'
 const Homepage = () => {
   return (
     <div className=''>
-         <div className='relative'>
-          {/* <Model  model="Model 3" text="Leasing starting at $349/mo" />
-           {/* <Model img={model3} model="Model 3" text="Leasing starting at $349/mo" />
-            <Model img={modelY} model="Model Y" text="Schedule a Demo Drive" className="relative" />
-           <Model img={model3} model="Model 3" text="Leasing starting at $349/mo" />
-            <Model img={modelY} model="Model Y" text="Schedule a Demo Drive" className="relative" />  */}
+         {/* <div className='relative'>
             <div>
               <div className='relative w-full h-screen bg-blue-500 '>
                   <img src={model3} className="h-full w-full object-cover" alt="" />
@@ -31,7 +26,8 @@ const Homepage = () => {
         </div> 
        <div className='fixed top-0 left-0 w-full'>
             <NavBar />
-       </div>
+       </div> */}
+       Working
     </div>
   )
 }
