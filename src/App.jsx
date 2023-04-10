@@ -3,8 +3,8 @@ import Homepage from "./component/Homepage"
 
 export default function App() {
   return (
-    <div>
-      <NavBar />
+    <div className="font-sans">
+      {/* <NavBar /> */}
       <Homepage />
     </div>
   )
