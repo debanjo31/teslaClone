@@ -31,7 +31,7 @@ const NavBar = () => {
           <div className='flex gap-4'>
               <p className='hidden lg:block'>Shop</p>
               <p className='hidden lg:block'>Account</p>
-              <p>Menu</p>
+              <button className='bg-gray-200 bg-opacity-25 -mt-1 px-2 rounded-md'>Menu</button>
           </div>
       </div>
         
