@@ -1,12 +1,10 @@
 import React from 'react'
-import modelS from '../assets/modelS.jpg'
-
-
+import model from '../assets/ModelS.jpg'
 
 function ModelS() {
   
     const styles = {
-        backgroundImage : `url(${modelS})`,
+        backgroundImage : `url(${model})`,
         backgroundRepeat : 'no-repeat',
         backgroundSize : 'cover',
         backgroundPosition : '50% 50%'
@@ -15,7 +13,7 @@ function ModelS() {
     <div className='snap-start  w-screen h-screen flex just items-center  text-center' style={styles}> 
     <div className='h-5/6 w-5/6 flex flex-col justify-between'>
            <div className='flex flex-col w-5/6 mx-auto'>
-              <h2>Model 3</h2>
+              <h2>Model S</h2>
               <p>Leasing starting at $349/mo</p>
            </div>
            <div className='flex flex-col ss:flex-row justify-center gap-4  w-5/6 mx-auto'>
