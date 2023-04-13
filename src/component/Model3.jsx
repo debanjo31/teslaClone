@@ -1,10 +1,10 @@
 import React from 'react'
-import model3 from '../assets/Model-X-Mobile.jpg'
-import model3mobile from '../assets/Model-X-Desktop.jpg'
+import model3 from '../assets/model3.jpg'
+import model3mobile from '../assets/model3mobile.jpg'
 
-const ModelX = () => {
+const Model3 = () => {
   const styles = {
-    backgroundImage : `url(${ 4 > 2 ? model3 : model3mobile})`,
+    backgroundImage : `url(${ 1 > 2 ? model3 : model3mobile})`,
     backgroundRepeat : 'no-repeat',
     backgroundSize : 'cover',
     backgroundPosition : '50% 50%'
@@ -26,4 +26,4 @@ const ModelX = () => {
   )
 }
 
-export default ModelX
+export default Model3
