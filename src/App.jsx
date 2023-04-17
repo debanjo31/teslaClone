@@ -4,8 +4,9 @@ import Homepage from "./component/Homepage"
 export default function App() {
   return (
     <div className="font-sans">
-      {/* <NavBar /> */}
+      <NavBar />
       <Homepage />
+      
     </div>
   )
 }

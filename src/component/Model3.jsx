@@ -7,7 +7,7 @@ const Model3 = () => {
     backgroundImage : `url(${ 1 > 2 ? model3 : model3mobile})`,
     backgroundRepeat : 'no-repeat',
     backgroundSize : 'cover',
-    backgroundPosition : '50% 40%'
+    backgroundPosition : '50% 70%'
   }
   return (
     <div className='snap-start  w-screen h-screen flex justify-around flex-col items-center  text-center' style={styles}> 

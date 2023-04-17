@@ -15,9 +15,7 @@ const Homepage = () => {
             <ModelS />
             <ModelX />        
         </div> 
-       <div className='fixed top-0 left-0 w-full h-full '>
-            <NavBar />
-       </div>
+       
     </div>
   )
 }
