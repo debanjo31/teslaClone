@@ -4,6 +4,9 @@ import ModelX from './ModelX'
 import ModelY from './ModelY'
 import ModelS from './ModelS'
 import Model3 from './Model3'
+import SolarPanel from './SolarPanel'
+import SolarRoof from './SolarRoof'
+import Accesories from './Accesories'
 
 const Homepage = () => {
  
@@ -13,7 +16,10 @@ const Homepage = () => {
             <ModelY />
             <Model3 />
             <ModelS />
-            <ModelX />        
+            <ModelX />  
+            <SolarPanel />     
+            <SolarRoof />
+            <Accesories />
         </div> 
        
     </div>
