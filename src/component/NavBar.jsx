@@ -10,22 +10,32 @@ const NavBar = () => {
       <div className='fixed top-0 left-0 w-full h-screen flex overflow-hidden z-30'>
           <div className='w-2/6 bg-gray-600 bg-opacity-75 ' onClick={()=> setStatus(false)}></div>
           <div className='w-4/6 bg-white p-4'>
-               <p onClick={()=> setStatus(false)} className='block cursor-pointer text-xl text-right'>X</p>
-               <div className='flex flex-col gap-16 overflow-auto h-screen'>
+               <p onClick={()=> setStatus(false)} className='block cursor-pointer text-xl text-right mb-8'>X</p>
+               <div className='flex flex-col gap-4 overflow-auto h-screen'>
                   <p>Model S</p>
                   <p>Model 3</p>
                   <p>Model X</p>
                   <p>Model Y</p>
                   <p>Solar Roof</p>
                   <p>Solar Panels</p>
-                  <p>Powerwall</p>
-                  <p>Model S</p>
-                  <p>Model 3</p>
-                  <p>Model X</p>
-                  <p>Model Y</p>
-                  <p>Solar Roof</p>
-                  <p>Solar Panels</p>
-                  <p>Powerwall</p>
+                  <p>Exisiting Inventory</p>
+                  <p>Used Inventory</p>
+                  <p>Trade-In</p>
+                  <p>Demo Drive</p>
+                  <p>Insurance</p>
+                  <p>Commercial Energy</p>
+                  <p>Utilities</p>
+                  <p>Charging</p>
+                  <p>Find Us</p>
+                  <p>Support</p>
+                  <p>Investor Relations</p>
+                  <p>Shop</p>
+                  <p>Account</p>
+                  <div className="flex justify-betweeen">
+                      <p>More</p>
+                      <p>&gt;</p>
+                  </div>
+                  
               </div>
           </div>
       </div>
