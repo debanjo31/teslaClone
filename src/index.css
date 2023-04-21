@@ -31,3 +31,7 @@
     text-decoration: underline;
     text-underline-position: under;
 }
+
+.modelButton{
+    max-width : 600px !important;
+}
