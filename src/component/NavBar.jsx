@@ -60,7 +60,7 @@ const NavBar = () => {
           <div className='flex gap-4'>
               <p className='hidden lg:block'>Shop</p>
               <p className='hidden lg:block'>Account</p>
-              <button className='bg-gray-200 bg-opacity-25 -mt-1 px-2 rounded-md' onClick={() => setStatus(true)}>Menu</button>
+              <button className='bg-gray-200 bg-opacity-25 -mt-2 px-2 py-1 rounded-md' onClick={() => setStatus(true)}>Menu</button>
           </div>
       </div>
       {status &&  <Sidebar />}
