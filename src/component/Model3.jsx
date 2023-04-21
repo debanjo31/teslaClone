@@ -7,12 +7,12 @@ const Model3 = () => {
     backgroundImage : `url(${ 1 > 2 ? model3 : model3mobile})`,
     backgroundRepeat : 'no-repeat',
     backgroundSize : 'cover',
-    backgroundPosition : '50% 70%'
+    backgroundPosition : '500% 40%'
   }
   return (
-    <div className='snap-start  w-screen h-screen flex justify-around flex-col items-center  text-center' style={styles}> 
+    <div className='model3 snap-start  w-screen h-screen flex justify-around flex-col items-center  text-center' style={styles}> 
            <div className='flex flex-col w-5/6 mx-auto'>
-              <h2 className='text-4xl'>Model Y</h2>
+              <h2 className='text-4xl'>Model 3</h2>
               <p>Leasing starting at $349/mo</p>
            </div>
            <div className='flex flex-col ss:flex-row justify-center gap-4  w-5/6 mx-auto'>

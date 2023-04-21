@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (min-width: 600px){
+    .modelY{
+        background: url(./assets/DesktopY.jpg) !important;
+        background-position: center center !important;
+        background-size: cover !important;
+    }
+
+    .model3{
+        background: url(./assets/model3.jpg) !important;
+        background-position: center center !important;
+        background-size: cover !important;
+    }
+    
+    .modelS{
+        background: url(./assets/modelSdesktop.jpeg) !important;
+        background-position: center center !important;
+        background-size: cover !important;
+    }
+    .modelX{
+        background: url(./assets/Model-X-Desktop.jpg) !important;
+        background-position: center center !important;
+        background-size: cover !important;
+    }
+}

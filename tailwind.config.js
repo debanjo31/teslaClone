@@ -14,6 +14,11 @@ export default {
         lg: "1200px",
         xl: "1700px",
       },
+      fontFamily: {
+        // add the css variable and include fallback fonts from tailwind default theme
+        sans: ['Gotham', 'san-serif'],
+        
+      },
     },
   },
   plugins: [],

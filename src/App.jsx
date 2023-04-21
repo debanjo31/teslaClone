@@ -4,7 +4,7 @@ import Footer from "./component/Footer"
 
 export default function App() {
   return (
-    <div className="font-sans">
+    <div className="">
       <NavBar />
       <Homepage />
       <Footer/>

@@ -7,12 +7,12 @@ function ModelS() {
         backgroundImage : `url(${model})`,
         backgroundRepeat : 'no-repeat',
         backgroundSize : 'cover',
-        backgroundPosition : '50% 40%'
+        backgroundPosition : '50% 30%'
       }
   return (
-    <div className='snap-start  w-screen h-screen flex justify-around flex-col items-center  text-center' style={styles}> 
+    <div className='modelS snap-start  w-screen h-screen flex justify-around flex-col items-center  text-center' style={styles}> 
            <div className='flex flex-col w-5/6 mx-auto'>
-              <h2 className='text-4xl'>Model Y</h2>
+              <h2 className='text-4xl'>Model S</h2>
               <p>Leasing starting at $349/mo</p>
              <button className='bg-gray-800 text-white p-2 rounded-md'>Order Now</button>
              <button className='bg-gray-200 text-black p-2 rounded-md'>Demo Drive</button>
