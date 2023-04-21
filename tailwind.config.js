@@ -16,7 +16,7 @@ export default {
       },
       fontFamily: {
         // add the css variable and include fallback fonts from tailwind default theme
-        sans: ['Gotham', 'san-serif'],
+        san: ['Gotham', 'san-serif'],
         
       },
     },

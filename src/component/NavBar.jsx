@@ -8,8 +8,8 @@ const NavBar = () => {
   function Sidebar() {
     return (
       <div className='font-sans fixed top-0 left-0 w-full h-screen flex overflow-hidden z-30'>
-          <div className='w-2/6 bg-gray-600 bg-opacity-75 ' onClick={()=> setStatus(false)}></div>
-          <div className='w-4/6 bg-white p-4 pb-12'>
+          <div className='w-1/6 bg-gray-600 bg-opacity-75 ' onClick={()=> setStatus(false)}></div>
+          <div className='w-5/6 bg-white p-4 pb-12'>
                <p onClick={()=> setStatus(false)} className='block cursor-pointer text-xl text-right mb-8'>X</p>
                <div className='flex flex-col gap-4 overflow-auto h-screen pb-12'>
                   <p>Model S</p>
@@ -43,7 +43,7 @@ const NavBar = () => {
   }
   
   return (
-    <div className=' pt-8 fixed top-0 left-0 w-full font-sans'>
+    <div className=' pt-8 fixed top-0 left-0 w-full  text-sm font-san'>
       <div className="w-5/6 mx-auto flex justify-between">
           <div><img src={tesla} alt="tesla" className='h-3'/></div>
           <div className='hidden lg:flex gap-4'>

@@ -9,17 +9,17 @@ function ModelY() {
     backgroundImage: `url(${model})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
-    backgroundPosition: '50% 40%',
+    backgroundPosition: '50% 30%',
   };
   return (
-    <div className='modelY snap-start  w-screen h-screen flex justify-around flex-col items-center  text-center' style={styles}> 
+    <div className='modelY snap-start  w-screen h-screen flex justify-between flex-col items-center  text-center pt-24 pb-16' style={styles}> 
     <div className='flex flex-col w-5/6 mx-auto'>
-       <h2 className='text-4xl'>Model Y</h2>
-       <p className='under'>View Inventory</p>
+       <h2 className='text-4xl font-san'>Model Y</h2>
+       <p className='under text-ss'>View Inventory</p>
     </div>
     <div className='flex flex-col ss:flex-row justify-center gap-4  w-5/6 mx-auto'>
-      <button className='bg-gray-800 text-white p-4 rounded-md'>Order Now</button>
-      <button className='bg-gray-200 text-black p-2 rounded-md'>Demo Drive</button>
+      <button className='text-white p-2 rounded-md' style={{backgroundColor : "rgba(23, 26, 32, 0.8"}}>Order Now</button>
+      <button className=' text-black p-2 rounded-md' style={{backgroundColor : "rgba(244, 244, 244, 0.65"}}>Demo Drive</button>
     </div>
 </div>
   )
