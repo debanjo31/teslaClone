@@ -25,6 +25,21 @@
         background-position: center center !important;
         background-size: cover !important;
     }
+    .solarPanel{
+        background: url(./assets/solarPanel.jpg) !important;
+        background-position: center center !important;
+        background-size: cover !important;
+    }
+    .solarRoof{
+        background: url(./assets/solarRoof.webp) !important;
+        background-position: center center !important;
+        background-size: cover !important;   
+    }
+    .accessory{
+        background: url(./assets/acessories.jpg) !important;
+        background-position: center center !important;
+        background-size: cover !important;
+    }
 }
 
 .under{

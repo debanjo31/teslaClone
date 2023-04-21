@@ -1,5 +1,4 @@
 import React from 'react'
-import NavBar from './NavBar'
 import ModelX from './ModelX'
 import ModelY from './ModelY'
 import ModelS from './ModelS'
