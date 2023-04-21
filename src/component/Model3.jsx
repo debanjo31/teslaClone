@@ -1,10 +1,9 @@
 import React from 'react'
-import model3 from '../assets/model3.jpg'
 import model3mobile from '../assets/model3mobile.jpg'
 
 const Model3 = () => {
   const styles = {
-    backgroundImage : `url(${ 1 > 2 ? model3 : model3mobile})`,
+    backgroundImage : `url(${ model3mobile})`,
     backgroundRepeat : 'no-repeat',
     backgroundSize : 'cover',
     backgroundPosition : '500% 40%'

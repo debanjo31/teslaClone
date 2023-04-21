@@ -26,3 +26,8 @@
         background-size: cover !important;
     }
 }
+
+.under{
+    text-decoration: underline;
+    text-underline-position: under;
+}
