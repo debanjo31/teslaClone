@@ -2,51 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (min-width: 600px){
-    .modelY{
-        background: url(./assets/DesktopY.jpg) !important;
-        background-position: center center !important;
-        background-size: cover !important;
-    }
+@media (min-width: 600px) {
+  .modelY {
+    background: url(./assets/DesktopY.jpg) !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
 
-    .model3{
-        background: url(./assets/model3.jpg) !important;
-        background-position: center center !important;
-        background-size: cover !important;
-    }
-    
-    .modelS{
-        background: url(./assets/modelSdesktop.jpeg) !important;
-        background-position: center center !important;
-        background-size: cover !important;
-    }
-    .modelX{
-        background: url(./assets/Model-X-Desktop.jpg) !important;
-        background-position: center center !important;
-        background-size: cover !important;
-    }
-    .solarPanel{
-        background: url(./assets/solarPanel.jpg) !important;
-        background-position: center center !important;
-        background-size: cover !important;
-    }
-    .solarRoof{
-        background: url(./assets/solarRoof.webp) !important;
-        background-position: center center !important;
-        background-size: cover !important;   
-    }
-    .accessory{
-        background: url(./assets/acessories.jpg) !important;
-        background-position: center center !important;
-        background-size: cover !important;
-    }
+  .model3 {
+    background: url(./assets/model3.jpg) !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+
+  .modelS {
+    background: url(./assets/modelSdesktop.jpeg) !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+  .modelX {
+    background: url(./assets/Model-X-Desktop.jpg) !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+  .solarPanel {
+    background: url(./assets/solarPanel.jpg) !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+  .solarRoof {
+    background: url(./assets/solarRoof.webp) !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+  .accessory {
+    background: url(./assets/acessories.jpg) !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
 }
 
-.under{
-    text-decoration: underline;
-    text-underline-position: under;
+.under {
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
-.modelButton{
-    max-width : 600px !important;
+.modelButton {
+  max-width: 600px !important;
 }
